@@ -1,0 +1,15 @@
+[package]
+name = "gtkk"
+version = "0.1.0"
+authors = ["LuckShiba <LuckShiba@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtk4 = "^0.1.0"
+futures = "^0.3.15"
+
+[dependencies.isahc]
+version = "^1.4.0"
+features = ["json"]
